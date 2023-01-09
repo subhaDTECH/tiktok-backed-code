@@ -1,9 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
 import titokVideos from "./dbModel.js";
+import cors from "cors";
 const app=express()
 const port=process.env.PORT || 4000;
-const dburl=""
+const dburl="mongodb+srv://admin:YXv10SKIEbljh2cW@cluster0.ebnur.mongodb.net/titok?retryWrites=true&w=majority"
 
 //app congig
 //db conn
